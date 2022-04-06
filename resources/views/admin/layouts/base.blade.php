@@ -33,9 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li><a class="px-5" href="{{route("admin.home")}}">Dashboard</a></li>
-                        <li><a class="px-5" href="{{route("admin.posts.index")}}">list posts</a></li>
-                        <li><a class="px-5" href="{{route("admin.posts.create")}}">Add a new post</a></li>
+                        <li><a href="{{route("admin.home")}}">Dashboard</a></li>
+                        <li><a href="{{route("admin.posts.index")}}">list posts</a></li>
+                        <li><a href="{{route("admin.posts.create")}}">Add a new post</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

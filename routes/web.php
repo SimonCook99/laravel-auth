@@ -22,6 +22,8 @@ Route::middleware("auth") //controllo di autenticazione gestito direttamente qui
     ->group(function(){
 
     Route::get('/', 'HomeController@index')->name('home');
+
+    Route::resource("posts", "PostController");
 });
 
 
